@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cortex-content-mcp"
+version = "0.0.1"
+description = "Skeleton for a Cortex Content MCP server (no implementation yet)"
+authors = [{ name = "TODO: Your Name", email = "TODO: you@example.com" }]
+requires-python = ">=3.11"
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: marks tests as integration tests that hit external services",
+]
